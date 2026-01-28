@@ -1,0 +1,341 @@
+body{
+    background-color: rgb(1, 1, 48);
+     font-family: 'Poppins', sans-serif;
+}
+.money h1{
+    text-align: center;
+    color: beige;
+    font-size: 80px;
+}
+.porshe img{
+  
+    margin-left: 120px;
+    width: 80%;
+    height: 550px;
+}
+.build{
+    display: flex;
+    gap: 20px;         
+    margin: 40px auto;
+    width: 95%;
+}
+
+.build-img.small{
+    width: 45%;
+}
+
+.build-img.big{
+    width: 55%;
+}
+.porshe img:hover {
+    transform: scale(1.03);
+    transition: 0.2s ease;
+}
+
+nav a {
+  color: beige;
+  margin: 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.blueprint-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+
+.blueprint-nav a {
+  color: beige;
+  text-decoration: none;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.blueprint-nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: orange;
+  left: 0;
+  bottom: -6px;
+  transition: 0.3s;
+}
+
+.blueprint-nav a:hover::after {
+  width: 100%;
+}
+.why-mech {
+    width: 80%;
+    margin: 100px auto;
+    color: beige;
+}
+
+.why-mech h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    border-left: 5px solid orange;
+    padding-left: 15px;
+}
+
+.p1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 18px;
+    color: #d1d1d1;
+    margin: 20px 0;
+}
+
+.p3 {
+    font-size: 18px;
+    color: orange;
+}
+
+.fact-box {
+
+  background: beige;
+  padding: 20px;
+  border-left: 4px solid orange;
+ width: 100%;
+  margin-top: 30px;
+}
+
+.form-section {
+  width: 85%;
+  margin: 120px auto;
+  color: beige;
+}
+
+.form-section h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.form-intro {
+  color: #d1d1d1;
+  margin-bottom: 50px;
+}
+
+.mech-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.b a {
+
+    color: red;
+    font-size: 40px;
+}
+
+.f{
+    margin-left: 250px;
+}
+
+fieldset {
+  border: 1px solid rgba(255,165,0,0.4);
+  padding: 30px;
+  border-radius: 12px;
+}
+
+legend {
+  padding: 0 10px;
+  color: orange;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  background: #0a0a4f;
+  border: 1px solid orange;
+  color: beige;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.submit-btn {
+  padding: 18px;
+  background: orange;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: darkorange;
+}
+
+
+.divider {
+  width: 80px;
+  height: 4px;
+  background: orange;
+  margin: 40px 0;
+}
+.roadmap {
+  width: 85%;
+  margin: 120px auto;
+  color: beige;
+}
+
+.roadmap h2 {
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.steps {
+  display: flex;
+  gap: 30px;
+}
+
+.step {
+  background: #0a0a4f;
+  padding: 30px;
+  border-radius: 12px;
+  flex: 1;
+  border-top: 4px solid orange;
+  transition: 0.3s;
+}
+
+.step h3 {
+  font-size: 32px;
+  color: orange;
+  margin-bottom: 15px;
+}
+
+.step:hover {
+  transform: translateY(-8px);
+}
+
+.careers {
+  width: 85%;
+  margin: 120px auto;
+  color: beige;
+}
+
+.careers h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.careers-intro {
+  color: #d1d1d1;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.career-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.career-card {
+  background: #0a0a4f;
+  padding: 25px;
+  border-radius: 14px;
+  border-left: 4px solid orange;
+  transition: 0.3s;
+}
+
+.career-card:hover {
+  transform: translateY(-8px);
+}
+
+
+.error-page {
+  background-color: rgb(1, 1, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: beige;
+  text-align: center;
+}
+
+.error-box h1 {
+  font-size: 140px;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.error-box h2 {
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.error-box p {
+  color: #d1d1d1;
+  margin-bottom: 40px;
+  max-width: 400px;
+}
+
+.error-btn {
+  padding: 15px 30px;
+  background: orange;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.error-btn:hover {
+  background: darkorange;
+}
+@keyframes shake {
+  0% { transform: translate(0); }
+  20% { transform: translate(-3px, 2px); }
+  40% { transform: translate(3px, -2px); }
+  60% { transform: translate(-2px, 3px); }
+  80% { transform: translate(2px, -3px); }
+  100% { transform: translate(0); }
+}
+.glitch {
+  font-size: 140px;
+  font-weight: bold;
+  color: orange;
+  position: relative;
+  animation: shake 0.4s infinite;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+}
+
+.glitch::before {
+  color: red;
+  transform: translate(-3px, -2px);
+}
+
+.glitch::after {
+  color:orange;
+  transform: translate(3px, 2px);
+}
