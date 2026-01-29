@@ -276,7 +276,6 @@ input[type="radio"]{
   color: white;
   font-weight: bold;
   font-size: 18px;
-  text-decoration: none;
   border-radius: 12px;
   transition: transform 0.2s, background-color 0.2s;
   cursor: pointer;
@@ -286,4 +285,8 @@ input[type="radio"]{
   background-color: darkorange;
   transform: scale(1.05);
 }
-
+.button-container {
+  display: flex;
+  justify-content: center; 
+  margin: 40px 0; 
+}
