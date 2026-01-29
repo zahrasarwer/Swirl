@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mechanical Engineering</title>
   <link rel="stylesheet" href="style.css">
 <link rel="icon" href="https://i.pinimg.com/736x/a9/d5/71/a9d57134af32004024dc4ab20c8816bb.jpg" type="image/jpeg">
@@ -17,13 +19,13 @@
       <fieldset>
         <legend>Basic Info</legend>
         <label>Full Name</label>
-        <input type="text">
+      <input type="text" name="fullname">
 
         <label>Email</label>
-        <input type="email">
+     <input type="email" name="email">
 
         <label>Age</label>
-        <input type="number">
+      <input type="number" name="age">
       </fieldset>
 
       <fieldset>
@@ -32,36 +34,38 @@
         <input type="range">
 
         <label>Why engineering?</label>
-        <textarea></textarea>
+        <textarea name="why_engineering"></textarea>
       </fieldset>
 
       <fieldset>
         <legend>Specialization</legend>
-        <label><input type="radio" name="field"> Automotive</label>
-        <label><input type="radio" name="field"> Robotics</label>
-        <label><input type="radio" name="field"> Aerospace</label>
-        <label><input type="radio" name="field"> Energy</label>
+       <label><input type="radio" name="specialization" value="Automotive"> Automotive</label>
+       <label><input type="radio" name="specialization" value="Robotics"> Robotics</label>
+       <label><input type="radio" name="specialization" value="Aerospace"> Aerospace</label>
+       <label><input type="radio" name="specialization" value="Energy"> Energy</label>
+
       </fieldset>
 
       <fieldset>
         <legend>Skills</legend>
-        <label><input type="checkbox"> Physics</label>
-        <label><input type="checkbox"> Math</label>
-        <label><input type="checkbox"> CAD</label>
-        <label><input type="checkbox"> Problem Solving</label>
+      <label><input type="checkbox" name="skills" value="Physics"> Physics</label>
+      <label><input type="checkbox" name="skills" value="Math"> Math</label>
+      <label><input type="checkbox" name="skills" value="CAD"> CAD</label>
+      <label><input type="checkbox" name="skills" value="Problem Solving"> Problem Solving</label>
+
       </fieldset>
 
       <fieldset>
         <legend>Engineer Thinking</legend>
-        <select>
-          <option>Analyze system</option>
-          <option>Find weak point</option>
-          <option>Redesign</option>
-          <option>Ask why</option>
-        </select>
-      </fieldset>
+        <select name="engineer_thinking">
+        <option value="analyze">Analyze system</option>
+        <option value="weak_point">Find weak point</option>
+        <option value="redesign">Redesign</option>
+        <option value="ask_why">Ask why</option>
+       </select>
 
-      <button class="submitbtn">SUBMIT ENGINEERING PROFILE</button>
+      </fieldset>
+<button type="submit" class="submitbtn">SUBMIT ENGINEERING PROFILE</button>
     </form>
   </div>
 
