@@ -269,3 +269,21 @@ input[type="radio"]{
 .L{
     color: beige;
 }
+.profile-btn {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: transform 0.2s, background-color 0.2s;
+  cursor: pointer;
+}
+
+.profile-btn:hover {
+  background-color: darkorange;
+  transform: scale(1.05);
+}
+
