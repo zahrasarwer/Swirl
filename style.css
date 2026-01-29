@@ -252,17 +252,26 @@ input[type="radio"]{
 .b {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 40px 0; 
 }
 
-.b{
+.b a {
+  display: inline-block;
   font-size: 18px;
   border-radius: 10px;
   background: #ff4d4d;
   color: white;
+  text-decoration: none;
+  padding: 14px 28px;
   cursor: pointer;
-   padding: 14px 28px;
+  transition: transform 0.2s, background-color 0.2s;
 }
+
+.b a:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
 .f img{
     margin-left: 390px;
 }
